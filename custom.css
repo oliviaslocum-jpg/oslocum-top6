@@ -1,2 +1,24 @@
+/**
+COLORS:
+27343b-d62828-f77f00-fcbf49-eae2b7
+black   red   orange yellow  ivory
+*/
+
+[data-theme='smiths'] {
+    --color-primary: #27343b;
+    --color-ivory: #f7f3db;
+    --color-red: #d62828;
+    --color-accent: #ef9638;
+    --color-yellow: #fcbf49;
+}
+
+body {
+    background-color: var(--color-ivory);
+}
+
+/****** HERO ******/
+/****** HERO ******/
+/****** HERO ******/
+
 .hero-mesh {
     background: url("https://guitar.com/wp-content/uploads/2021/08/The-Smiths-Credit-Ross-Marino-Getty-Images@2560x1625.jpg") center/cover;
