@@ -6,7 +6,7 @@ black   red   orange yellow  ivory
 
 [data-theme='smiths'] {
     --color-primary: #27343b;
-    --color-ivory: #f7f3db;
+    --color-ivory: #fffae3;
     --color-red: #d62828;
     --color-accent: #ef9638;
     --color-yellow: #fcbf49;
@@ -22,3 +22,31 @@ body {
 
 .hero-mesh {
     background: url("https://guitar.com/wp-content/uploads/2021/08/The-Smiths-Credit-Ross-Marino-Getty-Images@2560x1625.jpg") center/cover;
+}
+
+.hero-title {
+    color: var(--color-ivory);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.hero-support {
+    color: var(--color-accent);
+    font-weight: 450;
+    background-color: var(--color-primary);
+    padding: 10px;
+}
+
+/****** NAVBAR ******/
+/****** NAVBAR ******/
+/****** NAVBAR******/
+
+.site-nav-brand {
+    color: var(--color-ivory);
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.is-nav-ready .site-nav.is-stuck {
+    background: color-mix(in oklab, var(--color-red) 88%, transparent);
+    backdrop-filter: blur(10px);
+}
