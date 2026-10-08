@@ -366,7 +366,7 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
 .entry-body {
   position: relative;
   padding: 1.5rem;
-  padding-right: 5.5rem;
+  padding-right: 6rem;
   flex: 1;
 }
 
