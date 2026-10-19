@@ -12,6 +12,11 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+
+<!--GOOGLE FONT-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
     <!-- The tab icon. Redraw img/favicon.svg in your own colors. -->
     <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
     <!-- Your own rules go last, so they win. -->
@@ -119,7 +124,7 @@
             <div class="entry-body">
               <span class="rank" aria-hidden="true">03</span>
               <h3 class="entry-title"><span class="sr-only">Number three: </span>How Soon is Now?</h3>
-              <p class="entry-note">Raeching outside of their usual style, The Smiths created a sensually atmospheric track that gain popularity in UK Clubs.</p>
+              <p class="entry-note">Reaching outside of their usual style, The Smiths created a sensually atmospheric track that gain popularity in UK Clubs.</p>
             </div>
           </article>
         </li>
@@ -162,6 +167,44 @@
 
     <!-- METHOD: how you ranked them turns a list of opinions into an argument. -->
     <section id="method" class="method">
+    </section>
+
+    <section id="slider"> 
+<div class="carousel w-full">
+  <div id="slide1" class="carousel-item relative w-full">
+    <img
+      alt="Tailwind CSS slide example"
+      src="https://ichef.bbci.co.uk/images/ic/1200x675/p02c9jz8.jpg"
+      class="w-full" />
+    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide4" class="btn btn-circle">❮</a>
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide2" class="carousel-item relative w-full">
+    <img
+      alt="Tailwind CSS slide example"
+      src="https://dynamicmedia.livenationinternational.com/y/r/e/bc1ec766-2e40-4ba6-9572-a178b53610c6.jpg?format=webp&width=3840&quality=75"
+      class="w-full" />
+    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide1" class="btn btn-circle">❮</a>
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide3" class="carousel-item relative w-full">
+    <img
+      alt="Tailwind CSS slide example"
+      src="https://i.pinimg.com/originals/19/d9/de/19d9decf5407a3b2d7acbdbd4a9281d2.jpg"
+      class="w-full" />
+    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide2" class="btn btn-circle">❮</a>
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  </div>
+</div>
+    </section>
+
       <div class="method-inner" data-reveal>
         <p class="eyebrow">Method</p>
         <h2 class="section-title">How I ranked these</h2>
