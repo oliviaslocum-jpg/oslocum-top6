@@ -1,261 +1,269 @@
 <!doctype html>
 <html lang="en" data-theme="smiths">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Top 6 — Songs by The Smiths</title>
-    <meta name="description" content="One sentence about this list. Search results show it; write it." />
 
-    <!-- Tailwind and daisyUI, no build step. Open this file with Live Server.
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Top 6 — Songs by The Smiths</title>
+  <meta name="description" content="One sentence about this list. Search results show it; write it." />
+
+  <!-- Tailwind and daisyUI, no build step. Open this file with Live Server.
          Tailwind's browser build is for development only; Unit 8 replaces it. -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 
-<!--GOOGLE FONT-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
-    <!-- The tab icon. Redraw img/favicon.svg in your own colors. -->
-    <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
-    <!-- Your own rules go last, so they win. -->
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="custom.css" />
-  </head>
+  <!--GOOGLE FONT-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <!-- The tab icon. Redraw img/favicon.svg in your own colors. -->
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+  <!-- Your own rules go last, so they win. -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="custom.css" />
+</head>
 
-  <body class="bg-base-100 text-base-content">
-    <!-- THEME: change data-theme on <html> first. Try synthwave, forest,
+<body class="bg-base-100 text-base-content">
+  <!-- THEME: change data-theme on <html> first. Try synthwave, forest,
          cupcake, dracula, nord, autumn, lofi, night. All 35 are at
          daisyui.com/docs/themes. -->
 
-    <a class="skip" href="#list">Skip to the list</a>
+  <a class="skip" href="#list">Skip to the list</a>
 
-    <nav class="site-nav" data-nav>
-      <div class="site-nav-inner">
-        <a class="site-nav-brand" href="#top">Top 6 Songs by The Smiths</a>
-        <div class="site-nav-links">
-          <a href="#list">The list</a>
-          <a href="#method">Method</a>
-          <a class="btn btn-yellow btn-sm" href="#one">Number one</a>
-        </div>
+  <nav class="site-nav" data-nav>
+    <div class="site-nav-inner">
+      <a class="site-nav-brand" href="#top">Top 6 Songs by The Smiths</a>
+      <div class="site-nav-links">
+        <a class="btn btn-yellow btn-sm" href="#one">Number one</a>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- THE HERO: one headline, one line of support, one button. -->
-    <header class="hero-stage" id="top">
-      <div class="hero-mesh" aria-hidden="true"></div>
+  <!-- THE HERO: one headline, one line of support, one button. -->
+  <header class="hero-stage" id="top">
+    <div class="hero-mesh" aria-hidden="true"></div>
 
-      <div class="hero-body">
-        <h1 class="hero-title">
-          The six best <span class="hero-mark">songs by The Smiths</span>
-        </h1>
-        <a class="btn btn-primary btn-lg" href="#list">Please, Please, Please</a>
-      </div>
+    <div class="hero-body">
+      <h1 class="hero-title">
+        The six best <span class="hero-mark">songs by The Smiths</span>
+      </h1>
+      <a class="btn btn-primary btn-lg" href="#list">Please, Please, Please</a>
+    </div>
 
-      <a class="hero-cue" href="#list" aria-hidden="true" tabindex="-1">
-        <span class="hero-cue-dot"></span>
-      </a>
+    <a class="hero-cue" href="#list" aria-hidden="true" tabindex="-1">
+      <span class="hero-cue-dot"></span>
+    </a>
+  </header>
+
+  <main id="list" class="list-wrap">
+    <header class="list-head" data-reveal>
+      <p class="eyebrow">The countdown</p>
+      <h2 class="section-title">Six of them, worst to best</h2>
+      <p class="section-support">
+        From upbeat to sorrow, The Smiths have covered the full spectrum of human emotion in their music. Here is a
+        selection of their most profound works.
+      </p>
     </header>
 
-    <main id="list" class="list-wrap">
-      <header class="list-head" data-reveal>
-        <p class="eyebrow">The countdown</p>
-        <h2 class="section-title">Six of them, worst to best</h2>
-        <p class="section-support">
-          From upbeat to sorrow, The Smiths have covered the full spectrum of human emotion in their music. Here is a selection of their most profound works.
-        </p>
-      </header>
-
-      <ol class="list-grid">
-        <!-- ONE ENTRY. Keep all six parallel: if one has two sentences, they all
+    <ol class="list-grid">
+      <!-- ONE ENTRY. Keep all six parallel: if one has two sentences, they all
              do. Change the shape of one, then copy it over the other five. -->
-        <li class="entry" data-reveal>
-          <article class="entry-card">
-            <!-- YOUR PHOTO: put it in img/, change src and alt, and credit it
+      <li class="entry" data-reveal>
+        <article class="entry-card">
+          <!-- YOUR PHOTO: put it in img/, change src and alt, and credit it
                  in the footer. alt says what the picture shows. -->
-            <figure class="shot">
-              <img src="img/6.jpg" width="900" height="675" loading="lazy" alt="A Saturn V rocket clearing the launch tower in fire and smoke, seen from above" />
-              <figcaption class="shot-cap">This is the final stand of all I am</figcaption>
-            </figure>
+          <figure class="shot">
+            <img src="img/6.jpg" width="900" height="675" loading="lazy"
+              alt="A Saturn V rocket clearing the launch tower in fire and smoke, seen from above" />
+            <figcaption class="shot-cap">This is the final stand of all I am</figcaption>
+          </figure>
 
-            <div class="entry-body">
-              <span class="rank" aria-hidden="true">06</span>
-              <h3 class="entry-title"><span class="sr-only">Number six: </span>Well I Wonder</h3>
-              <p class="entry-note">This isn’t so much a cry for help as a futile, bleak, almost pathetic fading into a darkness with no light at the end of the tunnel.</p>
-            </div>
-          </article>
-        </li>
+          <div class="entry-body">
+            <span class="rank" aria-hidden="true">06</span>
+            <h3 class="entry-title"><span class="sr-only">Number six: </span>Well I Wonder</h3>
+            <p class="entry-note">This isn’t so much a cry for help as a futile, bleak, almost pathetic fading into a
+              darkness with no light at the end of the tunnel.</p>
+          </div>
+        </article>
+      </li>
 
-        <li class="entry" data-reveal>
-          <article class="entry-card">
-            <figure class="shot">
-              <img src="img/5.jpg" width="900" height="675" loading="lazy" alt="An astronaut on a gold tether floating outside his spacecraft, the Earth's edge behind him" />
-              <figcaption class="shot-cap">Will they ever believe me?</figcaption>
-            </figure>
-            <div class="entry-body">
-              <span class="rank" aria-hidden="true">05</span>
-              <h3 class="entry-title"><span class="sr-only">Number five: </span>A Boy with a Thorn in His Side</h3>
-              <p class="entry-note">Morissey's personal favorite. Critizes the music industry and Morissey's struggle within it.</p>
-            </div>
-          </article>
-        </li>
+      <li class="entry" data-reveal>
+        <article class="entry-card">
+          <figure class="shot">
+            <img src="img/5.jpg" width="900" height="675" loading="lazy"
+              alt="An astronaut on a gold tether floating outside his spacecraft, the Earth's edge behind him" />
+            <figcaption class="shot-cap">Will they ever believe me?</figcaption>
+          </figure>
+          <div class="entry-body">
+            <span class="rank" aria-hidden="true">05</span>
+            <h3 class="entry-title"><span class="sr-only">Number five: </span>A Boy with a Thorn in His Side</h3>
+            <p class="entry-note">Morissey's personal favorite. Critizes the music industry and Morissey's struggle
+              within it.</p>
+          </div>
+        </article>
+      </li>
 
-        <li class="entry" data-reveal>
-          <article class="entry-card">
-            <figure class="shot">
-              <img src="img/4.jpg" width="900" height="675" loading="lazy" alt="An astronaut in a jet-powered backpack flying free above a blue, cloud-covered Earth" />
-              <figcaption class="shot-cap">I haven't got a stitch to wear</figcaption>
-            </figure>
-            <div class="entry-body">
-              <span class="rank" aria-hidden="true">04</span>
-              <h3 class="entry-title"><span class="sr-only">Number four: </span>This Charming Man</h3>
-              <p class="entry-note">The Smiths' second single ever, depicting the story of a poor boy who is subconcious of his lack of material wealth.</p>
-            </div>
-          </article>
-        </li>
+      <li class="entry" data-reveal>
+        <article class="entry-card">
+          <figure class="shot">
+            <img src="img/4.jpg" width="900" height="675" loading="lazy"
+              alt="An astronaut in a jet-powered backpack flying free above a blue, cloud-covered Earth" />
+            <figcaption class="shot-cap">I haven't got a stitch to wear</figcaption>
+          </figure>
+          <div class="entry-body">
+            <span class="rank" aria-hidden="true">04</span>
+            <h3 class="entry-title"><span class="sr-only">Number four: </span>This Charming Man</h3>
+            <p class="entry-note">The Smiths' second single ever, depicting the story of a poor boy who is subconcious
+              of his lack of material wealth.</p>
+          </div>
+        </article>
+      </li>
 
-        <li class="entry" data-reveal>
-          <article class="entry-card">
-            <figure class="shot">
-              <img src="img/3.jpg" width="900" height="675" loading="lazy" alt="An astronaut standing on the gray lunar surface, the photographer reflected in his visor" />
-              <figcaption class="shot-cap">I am the son and the heir</figcaption>
-            </figure>
-            <div class="entry-body">
-              <span class="rank" aria-hidden="true">03</span>
-              <h3 class="entry-title"><span class="sr-only">Number three: </span>How Soon is Now?</h3>
-              <p class="entry-note">Reaching outside of their usual style, The Smiths created a sensually atmospheric track that gain popularity in UK Clubs.</p>
-            </div>
-          </article>
-        </li>
+      <li class="entry" data-reveal>
+        <article class="entry-card">
+          <figure class="shot">
+            <img src="img/3.jpg" width="900" height="675" loading="lazy"
+              alt="An astronaut standing on the gray lunar surface, the photographer reflected in his visor" />
+            <figcaption class="shot-cap">I am the son and the heir</figcaption>
+          </figure>
+          <div class="entry-body">
+            <span class="rank" aria-hidden="true">03</span>
+            <h3 class="entry-title"><span class="sr-only">Number three: </span>How Soon is Now?</h3>
+            <p class="entry-note">Reaching outside of their usual style, The Smiths created a sensually atmospheric
+              track that gain popularity in UK Clubs.</p>
+          </div>
+        </article>
+      </li>
 
-        <li class="entry" data-reveal>
-          <article class="entry-card">
-            <figure class="shot">
-              <img src="img/2.jpg" width="900" height="675" loading="lazy" alt="The whole Earth, fully lit, with Africa and Antarctica under swirling white cloud" />
-              <figcaption class="shot-cap">To die by your side is such a heavenly way to die</figcaption>
-            </figure>
-            <div class="entry-body">
-              <span class="rank" aria-hidden="true">02</span>
-              <h3 class="entry-title"><span class="sr-only">Number two: </span>There is a Light that Never Goes Out</h3>
-              <p class="entry-note">About enduring love and the human desire for emotional connection, portraying love as both transcendent and all-consuming.</p>
-            </div>
-          </article>
-        </li>
+      <li class="entry" data-reveal>
+        <article class="entry-card">
+          <figure class="shot">
+            <img src="img/2.jpg" width="900" height="675" loading="lazy"
+              alt="The whole Earth, fully lit, with Africa and Antarctica under swirling white cloud" />
+            <figcaption class="shot-cap">To die by your side is such a heavenly way to die</figcaption>
+          </figure>
+          <div class="entry-body">
+            <span class="rank" aria-hidden="true">02</span>
+            <h3 class="entry-title"><span class="sr-only">Number two: </span>There is a Light that Never Goes Out</h3>
+            <p class="entry-note">About enduring love and the human desire for emotional connection, portraying love as
+              both transcendent and all-consuming.</p>
+          </div>
+        </article>
+      </li>
 
-        <!-- NUMBER ONE is the one exception: full width, photo beside the words,
+      <!-- NUMBER ONE is the one exception: full width, photo beside the words,
              the primary color. data-count-from makes its numeral count down to
              01 as it arrives; delete the attribute to turn that off. -->
-        <li class="entry entry-one" id="one" data-reveal>
-          <article class="entry-card">
-            <figure class="shot">
-              <img src="img/1.jpg" width="900" height="675" loading="lazy" alt="The Earth, half lit, rising over the gray horizon of the Moon" />
-              <figcaption class="shot-cap">And you never know how much I really loved you</figcaption>
-            </figure>
-            <div class="entry-body">
-              <span class="rank" aria-hidden="true" data-count-from="6">01</span>
-              <p class="eyebrow">The best one</p>
-              <h3 class="entry-title"><span class="sr-only">Number one: </span>Back to the Old House</h3>
-              <p class="entry-note">
-                In this song, the singer laments about the passage of time and loss of opportunity. It reflects on nostalgia and the longing for the past.
-              </p>
-            </div>
-          </article>
-        </li>
-      </ol>
-    </main>
-
-    <!-- METHOD: how you ranked them turns a list of opinions into an argument. -->
-    <section id="method" class="method">
-    </section>
-
-    <section id="slider"> 
-<div class="carousel w-full">
-  <div id="slide1" class="carousel-item relative w-full">
-    <img
-      alt="Tailwind CSS slide example"
-      src="https://ichef.bbci.co.uk/images/ic/1200x675/p02c9jz8.jpg"
-      class="w-full" />
-    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide4" class="btn btn-circle">❮</a>
-      <a href="#slide2" class="btn btn-circle">❯</a>
-    </div>
-  </div>
-  <div id="slide2" class="carousel-item relative w-full">
-    <img
-      alt="Tailwind CSS slide example"
-      src="https://dynamicmedia.livenationinternational.com/y/r/e/bc1ec766-2e40-4ba6-9572-a178b53610c6.jpg?format=webp&width=3840&quality=75"
-      class="w-full" />
-    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide1" class="btn btn-circle">❮</a>
-      <a href="#slide3" class="btn btn-circle">❯</a>
-    </div>
-  </div>
-  <div id="slide3" class="carousel-item relative w-full">
-    <img
-      alt="Tailwind CSS slide example"
-      src="https://i.pinimg.com/originals/19/d9/de/19d9decf5407a3b2d7acbdbd4a9281d2.jpg"
-      class="w-full" />
-    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide2" class="btn btn-circle">❮</a>
-      <a href="#slide4" class="btn btn-circle">❯</a>
-    </div>
-  </div>
-  </div>
-</div>
-    </section>
-
-      <div class="method-inner" data-reveal>
-        <p class="eyebrow">Method</p>
-        <h2 class="section-title">How I ranked these</h2>
-        <div class="method-cols">
-          <div>
-            <h3 class="method-h">What I judged on</h3>
-            <p class="section-support">
-              Two or three things, named. "Good" is not one of them.
+      <li class="entry entry-one" id="one" data-reveal>
+        <article class="entry-card">
+          <figure class="shot">
+            <img src="img/1.jpg" width="900" height="675" loading="lazy"
+              alt="The Earth, half lit, rising over the gray horizon of the Moon" />
+            <figcaption class="shot-cap">And you never know how much I really loved you</figcaption>
+          </figure>
+          <div class="entry-body">
+            <span class="rank" aria-hidden="true" data-count-from="6">01</span>
+            <p class="eyebrow"></p>
+            <h3 class="entry-title">Back to the Old House</h3>
+            <p class="entry-note">
+              In this song, the singer laments about the passage of time and loss of opportunity. It reflects on
+              nostalgia and the longing for the past.
             </p>
           </div>
-          <div>
-            <h3 class="method-h">What I ignored</h3>
-            <p class="section-support">
-              The thing everyone else ranks by that you decided did not matter,
-              and why.
-            </p>
-          </div>
-          <div>
-            <h3 class="method-h">Where I could be wrong</h3>
-            <p class="section-support">
-              The strongest argument against your number one. Saying it makes
-              the rest more believable, not less.
-            </p>
-          </div>
+        </article>
+      </li>
+    </ol>
+  </main>
+
+  <!-- METHOD: how you ranked them turns a list of opinions into an argument. -->
+  <section id="method" class="method">
+  </section>
+
+  <section id="slider">
+    <div class="carousel w-full">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img alt="Tailwind CSS slide example"
+          src="https://www.nme.com/wp-content/uploads/2024/09/Smiths-80s@2000x1270.jpg" class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide4" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
         </div>
       </div>
-    </section>
-
-    <footer class="site-foot">
-      <div class="site-foot-inner">
-        <div>
-          <p class="site-foot-title">Your title</p>
-          <p class="section-support">Your name. Revised whenever I am wrong.</p>
-          <p class="section-support">© <span data-year>20XX</span> Your name.</p>
+      <div id="slide2" class="carousel-item relative w-full">
+        <img alt="Tailwind CSS slide example" src="https://ichef.bbci.co.uk/images/ic/1200x675/p02c9jz8.jpg"
+          class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide3" class="btn btn-circle">❯</a>
         </div>
-        <div>
-          <p class="site-foot-title">Credits</p>
-          <!-- CREDITS: creator, source and license for every image. Replace
+      </div>
+      <div id="slide3" class="carousel-item relative w-full">
+        <img alt="Tailwind CSS slide example"
+          src="https://i.pinimg.com/originals/19/d9/de/19d9decf5407a3b2d7acbdbd4a9281d2.jpg" class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide2" class="btn btn-circle">❮</a>
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="method-inner" data-reveal>
+    <p class="eyebrow"></p>
+    <h2 class="section-title">Honorable Mentions</h2>
+    <div class="method-cols">
+      <div>
+        <h3 class="method-h">This Night has Opened My Eyes</h3>
+        <p class="section-support">
+          A sad, singsongy classic, perfect for late night drives.
+        </p>
+      </div>
+      <div>
+        <h3 class="method-h">Please, Please, Please, Let Me Get What I Want</h3>
+        <p class="section-support">
+          A song about longing and desire, with a hauntingly beautiful melody.
+        </p>
+      </div>
+      <div>
+        <h3 class="method-h">Heaven Knows I'm Miserable Now</h3>
+        <p class="section-support">
+          An upbeat, ironic take on the struggles of life and love, with a catchy chorus.
+        </p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <footer class="site-foot">
+    <div class="site-foot-inner">
+      <div>
+        <p class="site-foot-title">Top 6 Smiths Songs</p>
+        <p class="section-support">Liv</p>
+        <p class="section-support">© <span data-year>20XX</span> Your name.</p>
+      </div>
+      <div>
+        <p class="site-foot-title">Credits</p>
+        <!-- CREDITS: creator, source and license for every image. Replace
                these six lines as you replace the photos. -->
-          <ul class="credits">
-            <li>Launch: <a href="https://images.nasa.gov/details/S69-39961">NASA, S69-39961</a>, public domain.</li>
-            <li>Spacewalk: <a href="https://images.nasa.gov/details/s65-30433">NASA, S65-30433</a>, public domain.</li>
-            <li>Free flight: <a href="https://images.nasa.gov/details/s84-27017">NASA, S84-27017</a>, public domain.</li>
-            <li>Moonwalk: <a href="https://images.nasa.gov/details/as11-40-5903">NASA, AS11-40-5903</a>, public domain.</li>
-            <li>Whole Earth: <a href="https://images.nasa.gov/details/as17-148-22727">NASA, AS17-148-22727</a>, public domain.</li>
-            <li>Earthrise: <a href="https://images.nasa.gov/details/as08-14-2383">NASA, AS08-14-2383</a>, public domain.</li>
-          </ul>
-        </div>
+        <ul class="credits">
+          <li>Launch: <a href="https://images.nasa.gov/details/S69-39961">NASA, S69-39961</a>, public domain.</li>
+          <li>Spacewalk: <a href="https://images.nasa.gov/details/s65-30433">NASA, S65-30433</a>, public domain.</li>
+          <li>Free flight: <a href="https://images.nasa.gov/details/s84-27017">NASA, S84-27017</a>, public domain.</li>
+          <li>Moonwalk: <a href="https://images.nasa.gov/details/as11-40-5903">NASA, AS11-40-5903</a>, public domain.
+          </li>
+          <li>Whole Earth: <a href="https://images.nasa.gov/details/as17-148-22727">NASA, AS17-148-22727</a>, public
+            domain.</li>
+          <li>Earthrise: <a href="https://images.nasa.gov/details/as08-14-2383">NASA, AS08-14-2383</a>, public domain.
+          </li>
+        </ul>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="js/reveal.js"></script>
-  </body>
+  <script src="js/reveal.js"></script>
+</body>
+
 </html>

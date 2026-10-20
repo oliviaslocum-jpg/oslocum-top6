@@ -18,12 +18,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'DM Serif Display', serif;
-    color: var(--color-primary);
 }
 
 body, div, p{
     font-family: "Amatic SC", sans-serif;
-    color: var(--color-primary);
 }
 /****** HERO ******/
 /****** HERO ******/
