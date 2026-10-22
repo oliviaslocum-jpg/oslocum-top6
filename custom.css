@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body, div, p{
-    font-family: "Amatic SC", sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 /****** HERO ******/
 /****** HERO ******/
@@ -56,4 +56,13 @@ body, div, p{
 .is-nav-ready .site-nav.is-stuck {
     background: color-mix(in oklab, var(--color-red) 88%, transparent);
     backdrop-filter: blur(10px);
+}
+
+.site-foot {
+    background: var(--color-red);
+    color: var(--color-ivory) !IMPORTANT;
+}
+
+.ivory {
+    background-color: var(--color-ivory) !IMPORTANT;
 }
